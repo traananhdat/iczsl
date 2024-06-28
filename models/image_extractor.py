@@ -7,7 +7,8 @@ from .vision_transformer import vit_base
 
 import sys
 sys.path.append('..')
-from CLIP import clip
+# from CLIP import clip
+import clip
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
